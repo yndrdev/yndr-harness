@@ -1,0 +1,27 @@
+{
+  "name": "@yndr/cli",
+  "version": "0.1.0",
+  "description": "YNDR Harness CLI — run and build playbooks from the command line",
+  "type": "module",
+  "bin": {
+    "yndr": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@yndr/engine": "workspace:*",
+    "chalk": "^5.4.0",
+    "commander": "^13.0.0",
+    "inquirer": "^12.3.0",
+    "ora": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "typescript": "^5.7.0"
+  }
+}
