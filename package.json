@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
+    "build:web": "turbo run build --filter=@yndr/web...",
     "lint": "turbo lint",
     "type-check": "turbo type-check",
     "test": "turbo test",
