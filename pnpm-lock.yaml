@@ -23,6 +23,12 @@ importers:
 
   apps/web:
     dependencies:
+      '@anthropic-ai/sdk':
+        specifier: ^0.39.0
+        version: 0.39.0
+      '@supabase/supabase-js':
+        specifier: ^2.49.0
+        version: 2.97.0
       '@yndr/db':
         specifier: workspace:*
         version: link:../../packages/db
