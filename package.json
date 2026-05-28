@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "next": "^15.1.0",
-    "turbo": "^2.4.0",
+    "turbo": "^2.9.14",
     "prettier": "^3.4.0",
     "typescript": "^5.7.0"
   },
